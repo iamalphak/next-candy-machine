@@ -4,10 +4,16 @@
 
 html,
 body {
+
+    background-image: url(https://media.discordapp.net/attachments/907716590219456532/913796495688474624/MINTBG.png);
+    background-size: cover;
+    background-position: center;
+  
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: #fff !important;
 }
 
 a {
@@ -17,4 +23,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: white;
+}
+
+.font-bold {
+  font-weight: 700;
+  color: #ffff;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  text-align: center;
 }

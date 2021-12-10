@@ -57,7 +57,7 @@ export default function Home() {
           value={mintCount}
           onChange={(e) => setMintCount((e.target as any).value)}
         />
-        <p className="mx-auto mt-2">min 2; max 10;</p>
+        <p className="mx-auto mt-2">2 - 5 max</p>
       </>
     );
   };
@@ -65,7 +65,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>next-candy-machine</title>
+        <title>Humble Roo Beach Club | Official Minting Page </title>
         <meta
           name="description"
           content="Simplified NextJs with typescript example app integrated with Metaplex's Candy Machine"
@@ -76,7 +76,7 @@ export default function Home() {
       <div className="flex flex-col items-center min-h-screen mx-6">
         <Toaster />
         <div className="flex items-center justify-between w-full mt-3">
-          <h1 className="text-2xl font-bold">next-candy-machine</h1>
+          <h1 className="text-2xl font-bold"></h1>
           <div className="flex items-center">
             {connected && (
               <div className="flex items-end mr-2">
@@ -99,9 +99,8 @@ export default function Home() {
         </div>
         {connected && (
           <p className="mr-auto text-sm">
-            <span className="font-bold">Available/Minted/Total:</span>{" "}
-            {nftsData.itemsRemaining}/{nftsData.itemsRedeemed}/
-            {nftsData.itemsAvailable}
+            <span className="font-bold"></span>{" "}
+            
           </p>
         )}
         <div className="flex items-start justify-center w-11/12 my-10">
